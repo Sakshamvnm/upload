@@ -1,0 +1,57 @@
+/*Styling for Download ,Upload and color picker buttons/not working*/
+
+body
+{
+	background-image: url(img_3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main
+{
+	position: absolute;
+	top: 17%;
+	left:30%;
+	right: 10%;
+	width: 460px;
+	border: 2px solid #000;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	border-radius: 12px;
+	padding-top: 80px;
+}
+#file::-webkit-file-upload-button{
+	visibility: hidden;
+}
+#file ,input[type=button] , #color
+{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 17px;
+	border: 1px solid #000;
+	letter-spacing: 2px;
+    border-radius: 5px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	transition: 0.5s all;
+}
+#file 
+{
+	width: 84%;
+	height: 55px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+#file:hover , input[type=button]:hover , #color:hover {
+	cursor: pointer;
+	background-color:  #FFF0F0;
+}
+#text
+{
+	font-size: 17px;
+	color: #000;
+	font-family: Arial;
+	
+}
